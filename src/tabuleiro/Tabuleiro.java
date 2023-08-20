@@ -35,7 +35,7 @@ public class Tabuleiro {
 		return pecas[posicao.getLinha()][posicao.getColuna()];	
 	}
 	
-	public void lugaPeça(Peca peca, Posicao posicao) {
+	public void lugarPeca(Peca peca, Posicao posicao) {
 		if(temPeca(posicao)) {
 			throw new ExcecaoTabuleiro("Já existi uma peça nesta posição" + posicao);
 		}

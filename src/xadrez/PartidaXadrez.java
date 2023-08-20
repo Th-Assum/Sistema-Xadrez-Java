@@ -28,8 +28,18 @@ public class PartidaXadrez {
 		
 	}
 	private void initialSetup() {
-		lugarNPeca('b', 6,new Torre(tabuleiro, Cor.BRANCO));
-		lugarNPeca('e', 8, new Rei(tabuleiro, Cor.PRETO));
-		lugarNPeca('e', 1,new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('c', 1, new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('c', 2, new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('d', 2, new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('e', 2, new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('e', 1, new Torre(tabuleiro, Cor.BRANCO));
+		lugarNPeca('d', 1, new Rei(tabuleiro, Cor.BRANCO));
+
+		lugarNPeca('c', 7, new Torre(tabuleiro, Cor.PRETO));
+		lugarNPeca('c', 8, new Torre(tabuleiro, Cor.PRETO));
+        lugarNPeca('d', 7, new Torre(tabuleiro, Cor.PRETO));
+        lugarNPeca('e', 7, new Torre(tabuleiro, Cor.PRETO));
+        lugarNPeca('e', 8, new Torre(tabuleiro, Cor.PRETO));
+        lugarNPeca('d', 8, new Rei(tabuleiro, Cor.PRETO));
 	}
 }
